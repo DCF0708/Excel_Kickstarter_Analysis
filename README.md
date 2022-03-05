@@ -1,4 +1,4 @@
 # Kickstarter-Analysis
 An analysis of Kickstarter Campaigns
 
-Initial upload will not include full functionalty. Expect full functionality in update 1.0
+Ver. 1.0: Module 1.1.3 - Module 1.5.4

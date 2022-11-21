@@ -1,16 +1,23 @@
 # Kickstarting with Excel: Challenge 
 
-## Overview of Project
-  The following is a deep dive into the statistics behind Kickstarter Campaigns. This compilation of spreadsheets, tables, and charts holds and compares Kickstarters based on 21 categories of information. These categories include Names, country of origin, fundraising goals, outcomes, etc. 
+## Overview
+   The following is a case study on kickstarter data within Microsoft Excel. The over-arching purpose of this study is to tell the story that lies within a simple .csv data set using only the toolkit provided within Excel. The case study will demonstrate the following: </br>
+   * Importing data into a table for analysis.
+   * Applying filters, conditional formatting, and formulas.
+   * Generating and interpreting pivot tables.
+   * Calculating summary statistics such as measures of central tendency, standard deviation, and variance.
+   * Characterizing data to identify outliers in datasets.
+   * Performing an Excel analysis with visualizations.
+   * Interpreting common Excel visualizations 
 
 ## Purpose
-   The purpose of collecting and analyzing Kickstarter background information in the 'Kickstarter Challenge' is to create a way for the user to draw conclusions on the inferred outcome of a given kickstarter based on past campaigns. In the example analysis the user, Louise, wants to compare the success of her play's Kickstarter to the launch dates and funding goals of other plays' campaigns. The data is sorted and charted in a format that reveals the trends behind success (or failure). This allows her to draw conclusions on the best times of year to start a campaign, as well as the fundraising goals with the highest rates of success. 
+   Create a way for the user to draw conclusions on the inferred outcome of a given kickstarter campaign based on past campaign data. The client wants to compare the success of her play production's Kickstarter to the campaigns of other productions similar to hers. The data is sorted and charted in a format that reveals the trends behind success (or failure). This allows the client to draw conclusions on the best times of year to start a campaign, as well as the fundraising goals with the highest rates of success. 
 
 ## Analysis and Challenges
-   Data from over 4000 theater kickstarters is displayed based on country of origin (GB). The Spreadsheet pulls the outcomes of the British campaigns and separates the outcomes into three categories: Successful, Failed, and Canceled. The information is collated and separated by the month of the year the campaign started. The final product of this is a basis for a line graph that cleanly and easily conveys the trends behind the timing of Kickstarters vs the rate of success. 
+   Data from over 4000 theater kickstarters is displayed based on country of origin (GB). The Spreadsheet pulls the outcomes of the British campaigns and separates the outcomes into three categories: Successful, Failed, and Canceled. The information is collated and separated by the month of campaign start. The final product is the basis for a line graph that cleanly and easily conveys the trends behind the timing of Kickstarters vs their rates of success. 
 
 ## Potential Challenge
-   When considering the trend(s) portrayed in the chart, the user must understand that in finding the success rate, no other outside variable aside from time of year is being considered. For example, the month of March experienced a decline of approx. 20% in the success of outcomes (see fig. 1). This also happens to coincide with the upcoming end of the British fiscal year (April 5th) which could imply that individuals are less likely to freely donate their money to a Kickstarter until the tax deadline is met. In order to prove this correlation more research is needed, however for the purposes of portraying the effect of outside factors on campaign success this example works well.
+   When considering the trend(s) portrayed in the chart, the user must understand that in finding the success rate, no other outside variable aside from time of year is being considered. For example, the month of March experienced a decline of approx. 20% in the success of outcomes (see fig. 1). The number of omitted factors in this case make it difficult to draw a meaningful conclusion for why this happens, and more research is needed to make this determination. However, for the purposes of the stated objective, the trend remains an indicator of decline in this time period.
    
    ![](/Resources/fig.%201.png)
    
@@ -18,7 +25,7 @@
 
 
 ## Analysis of Outcomes Based on Launch Date
-   A visual analysis of the generated line graph (see fig. 2) reveals that Kickstarter Campaigns for plays are significantly more likely to succeed when launched in or around the month of May. This climax is followed by an almost linear decline in success rates for the next 4 months, with rates of failure staying nearly the same for May and the first 3 months of decline. Not only does the rate of success go down from May onward, but the total number of failed kickstarters from May to July indicates a decline in the total number of Kickstarter campaigns for plays altogether.By looking at the canceled statistic one can see that in number it doesn't make up for a significant amount of outcomes during these months. These facts should indicate to Louise that launching a Kickstarter for a play in May would hold the best chances of success. 
+   A visual analysis of the generated line graph (see fig. 2) reveals that Kickstarter Campaigns for plays are significantly more likely to succeed when launched in or around the month of May. This climax is followed by an almost linear decline in success rates for the next 4 months, with rates of failure staying nearly the same for May and the first 3 months of decline. Not only does the rate of success go down from May onward, but the total number of failed kickstarters from May to July indicates a decline in the total number of Kickstarter campaigns for plays altogether. By looking at the canceled statistic one can see that it doesn't make up for a significant amount of outcomes during these months. These facts should indicate to Louise that launching a Kickstarter for a play in May would hold the best chances of success. 
    
    
 ![](/Resources/Theater_Outcomes_vs_Launch.png)
